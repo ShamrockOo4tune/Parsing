@@ -1,0 +1,16 @@
+> show dbs
+admin      0.000GB
+config     0.000GB
+local      0.000GB
+vacancies  0.000GB
+> use vacancies
+switched to db vacancies
+> show collections
+vacancies
+> db.vacancies.find({})
+{ "_id" : ObjectId("5f8d19efc8c426a9c2595ba6"), "resource_name" : "hh.ru", "job_name" : "Системный администратор", "salary_from" : 60000, "salary_to" : null, "currency" : "RUR", "link" : "https://yuzhno-sakhalinsk.hh.ru/vacancy/39642866?query=python" }
+{ "_id" : ObjectId("5f8d19efc8c426a9c2595ba7"), "resource_name" : "superjob.ru", "job_name" : "Программист", "salary_from" : null, "salary_to" : 120000, "currency" : "RUR", "link" : "https://yuzhno-sakhalinsk.superjob.ru/vakansii/programmist-34672290.html" }
+> 
+
+
+
